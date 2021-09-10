@@ -1,0 +1,190 @@
+2021-09-09 09:31:21.031  INFO 7 --- [main] run.halo.app.Application                 : Starting Application v1.4.11 using Java 11.0.11 on 2cc07c5d2c18 with PID 7 (/application/BOOT-INF/classes started by root in /application)
+2021-09-09 09:31:21.060  INFO 7 --- [main] run.halo.app.Application                 : No active profile set, falling back to default profiles: default
+2021-09-09 09:31:23.978  INFO 7 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-09 09:31:24.342  INFO 7 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 330 ms. Found 22 JPA repository interfaces.
+2021-09-09 09:31:26.966  INFO 7 --- [main] org.eclipse.jetty.util.log               : Logging initialized @8714ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-09-09 09:31:27.548  INFO 7 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8090
+2021-09-09 09:31:27.565  INFO 7 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.42.v20210604; built: 2021-06-04T17:33:38.939Z; git: 5cd5e6d2375eeab146813b0de9f19eda6ab6e6cb; jvm 11.0.11+9
+2021-09-09 09:31:27.710  INFO 7 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-09-09 09:31:27.711  INFO 7 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6469 ms
+2021-09-09 09:31:28.313  INFO 7 --- [main] run.halo.app.config.HaloConfiguration    : Halo cache store load impl : [class run.halo.app.cache.InMemoryCacheStore]
+2021-09-09 09:31:28.695  INFO 7 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-09 09:31:29.278  INFO 7 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-09 09:31:30.963  INFO 7 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-09 09:31:31.121  INFO 7 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-09 09:31:31.268  INFO 7 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-09 09:31:31.777  INFO 7 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-09 09:31:35.366  INFO 7 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-09 09:31:35.394  INFO 7 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-09 09:31:37.675  INFO 7 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-09-09 09:31:37.675  INFO 7 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-09-09 09:31:37.676  INFO 7 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2021-09-09 09:31:37.704  INFO 7 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@4619e076{application,/,[file:///tmp/jetty-docbase.8090.8823578894266266755/, jar:file:/application/BOOT-INF/lib/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],AVAILABLE}
+2021-09-09 09:31:37.705  INFO 7 --- [main] org.eclipse.jetty.server.Server          : Started @19454ms
+2021-09-09 09:31:39.368  INFO 7 --- [main] run.halo.app.handler.file.FileHandlers   : Registered 9 file handler(s)
+2021-09-09 09:31:45.939  INFO 7 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/api/admin/actuator'
+2021-09-09 09:31:46.066  INFO 7 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-09 09:31:46.067  INFO 7 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-09 09:31:46.068  INFO 7 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-09 09:31:46.099  INFO 7 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@3b57dba4{HTTP/1.1, (http/1.1)}{0.0.0.0:8090}
+2021-09-09 09:31:46.105  INFO 7 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8090 (http/1.1) with context path '/'
+2021-09-09 09:31:46.160  INFO 7 --- [main] run.halo.app.Application                 : Started Application in 26.681 seconds (JVM running for 27.909)
+2021-09-09 09:31:46.166  INFO 7 --- [main] run.halo.app.listener.StartedListener    : Starting migrate database...
+2021-09-09 09:31:46.352  INFO 7 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.5.1 by Redgate
+2021-09-09 09:31:46.379  INFO 7 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:h2:file:~/.halo/db/halo (H2 1.4)
+2021-09-09 09:31:46.487  INFO 7 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Repair of failed migration in Schema History table "PUBLIC"."flyway_schema_history" not necessary. No failed migration detected.
+2021-09-09 09:31:46.533  INFO 7 --- [main] o.f.core.internal.command.DbRepair       : Successfully repaired schema history table "PUBLIC"."flyway_schema_history" (execution time 00:00.093s).
+2021-09-09 09:31:46.544  INFO 7 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.5.1 by Redgate
+2021-09-09 09:31:46.576  INFO 7 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 4 migrations (execution time 00:00.021s)
+2021-09-09 09:31:46.612  INFO 7 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": 4
+2021-09-09 09:31:46.627  INFO 7 --- [main] o.f.core.internal.command.DbMigrate      : Schema "PUBLIC" is up to date. No migration necessary.
+2021-09-09 09:31:46.639  INFO 7 --- [main] run.halo.app.listener.StartedListener    : Migrate database succeed.
+2021-09-09 09:31:46.640  INFO 7 --- [main] run.halo.app.listener.StartedListener    : Created backup directory: [/tmp/halo-backup]
+2021-09-09 09:31:46.640  INFO 7 --- [main] run.halo.app.listener.StartedListener    : Created data export directory: [/tmp/halo-data-export]
+2021-09-09 09:31:46.928  INFO 7 --- [main] run.halo.app.listener.StartedListener    : [94mHalo started at         http://xbrainbird.com[0;39m
+2021-09-09 09:31:46.929  INFO 7 --- [main] run.halo.app.listener.StartedListener    : [94mHalo admin started at   http://xbrainbird.com/admin[0;39m
+2021-09-09 09:31:46.929  INFO 7 --- [main] run.halo.app.listener.StartedListener    : [93mHalo has started successfully![0;39m
+2021-09-09 09:32:08.868  WARN 7 --- [qtp1138190994-18] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [47.101.185.96]
+2021-09-09 09:32:08.872  WARN 7 --- [qtp1138190994-17] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [47.101.185.96]
+2021-09-09 09:32:08.873 ERROR 7 --- [qtp1138190994-17] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b9f46d793ddb4343b8420168f047a330]
+2021-09-09 09:32:08.869 ERROR 7 --- [qtp1138190994-18] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b9f46d793ddb4343b8420168f047a330]
+2021-09-09 09:32:08.877  WARN 7 --- [qtp1138190994-19] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [47.101.185.96]
+2021-09-09 09:32:08.877 ERROR 7 --- [qtp1138190994-19] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b9f46d793ddb4343b8420168f047a330]
+2021-09-09 09:32:08.883  WARN 7 --- [qtp1138190994-14] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [47.101.185.96]
+2021-09-09 09:32:08.883 ERROR 7 --- [qtp1138190994-14] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b9f46d793ddb4343b8420168f047a330]
+2021-09-09 09:32:09.009 ERROR 7 --- [qtp1138190994-14] r.h.app.core.ControllerExceptionHandler  : Captured an exception:
+
+run.halo.app.exception.BadRequestException: 登录状态已失效，请重新登录
+	at run.halo.app.service.impl.AdminServiceImpl.lambda$refreshToken$5(AdminServiceImpl.java:276) ~[classes/:1.4.11]
+	at java.base/java.util.Optional.orElseThrow(Unknown Source) ~[na:na]
+	at run.halo.app.service.impl.AdminServiceImpl.refreshToken(AdminServiceImpl.java:275) ~[classes/:1.4.11]
+	at run.halo.app.controller.admin.api.AdminController.refresh(AdminController.java:99) ~[classes/:1.4.11]
+	at run.halo.app.controller.admin.api.AdminController$$FastClassBySpringCGLIB$$4785b262.invoke(<generated>) ~[classes/:1.4.11]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.8.jar:5.3.8]
+	at run.halo.app.core.ControllerLogAop.controller(ControllerLogAop.java:48) ~[classes/:1.4.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.8.jar:5.3.8]
+	at run.halo.app.cache.lock.CacheLockInterceptor.interceptCacheLock(CacheLockInterceptor.java:71) ~[classes/:1.4.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) ~[spring-aop-5.3.8.jar:5.3.8]
+	at run.halo.app.controller.admin.api.AdminController$$EnhancerBySpringCGLIB$$19e73b7d.refresh(<generated>) ~[classes/:1.4.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:517) ~[jakarta.servlet-api-4.0.4.jar:4.0.4]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584) ~[jakarta.servlet-api-4.0.4.jar:4.0.4]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:228) ~[websocket-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at run.halo.app.filter.CorsFilter.doFilter(CorsFilter.java:53) ~[classes/:1.4.11]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.5.1.jar:2.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at run.halo.app.filter.LogFilter.doFilterInternal(LogFilter.java:40) ~[classes/:1.4.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:602) ~[jetty-security-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1435) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501) ~[jetty-servlet-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[jetty-server-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[jetty-io-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[jetty-io-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[jetty-io-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[jetty-util-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[jetty-util-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[jetty-util-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[jetty-util-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:383) ~[jetty-util-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:882) ~[jetty-util-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1036) ~[jetty-util-9.4.42.v20210604.jar:9.4.42.v20210604]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2021-09-09 09:32:09.161  WARN 7 --- [qtp1138190994-16] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [47.101.185.96]
+2021-09-09 09:32:09.162 ERROR 7 --- [qtp1138190994-16] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b9f46d793ddb4343b8420168f047a330]
+2021-09-09 09:32:09.168  WARN 7 --- [qtp1138190994-16] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [47.101.185.96]
+2021-09-09 09:32:09.168 ERROR 7 --- [qtp1138190994-16] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b9f46d793ddb4343b8420168f047a330]
+2021-09-09 09:32:09.175  WARN 7 --- [qtp1138190994-16] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [47.101.185.96]
+2021-09-09 09:32:09.175 ERROR 7 --- [qtp1138190994-16] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b9f46d793ddb4343b8420168f047a330]
+2021-09-09 09:32:09.880  WARN 7 --- [qtp1138190994-16] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [47.101.185.96]
+2021-09-09 09:32:09.881 ERROR 7 --- [qtp1138190994-16] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b9f46d793ddb4343b8420168f047a330]
+2021-09-09 09:32:28.313  WARN 7 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_public run.halo.app.security.token.AuthToken run.halo.app.controller.admin.api.AdminController.refresh(java.lang.String)] has been expired
+2021-09-09 09:32:28.314  WARN 7 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_precheck] has been expired
+2021-09-09 09:32:28.314  WARN 7 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_auth] has been expired
