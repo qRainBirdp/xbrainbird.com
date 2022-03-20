@@ -1,4 +1,2 @@
-2022-03-13 05:42:27.082  WARN 7 --- [qtp1138190994-146531] o.s.w.s.r.ResourceHttpRequestHandler     : Path represents URL or has "url:" prefix: [https:/xbrainbird.com/upload/2021/04/server-51d1817062ff43a59b288330550d94d2.ico]
-2022-03-13 13:14:41.335  WARN 7 --- [qtp1138190994-146531] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-03-13 13:58:47.178  WARN 7 --- [qtp1138190994-145952] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-03-13 16:41:28.307  WARN 7 --- [qtp1138190994-146530] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-03-19 14:48:28.313  WARN 7 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.access_token.1] has been expired
+2022-03-19 14:48:28.314  WARN 7 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.access.token.b7c6744094bd4b01a0b0049d60a8c5b7] has been expired
