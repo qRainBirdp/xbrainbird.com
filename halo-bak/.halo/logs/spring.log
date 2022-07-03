@@ -1,1 +1,2 @@
-2022-06-26 02:00:51.987  WARN 7 --- [qtp1138190994-215713] o.s.w.s.r.ResourceHttpRequestHandler     : Path with "WEB-INF" or "META-INF": [s/lkx/_/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties]
+2022-07-03 10:56:43.435  WARN 7 --- [qtp1138190994-145961] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'keyword' for method parameter type String is not present]
+2022-07-03 15:12:10.924  WARN 7 --- [qtp1138190994-191693] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
