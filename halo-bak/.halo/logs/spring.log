@@ -1,2 +1,4 @@
-2022-07-03 10:56:43.435  WARN 7 --- [qtp1138190994-145961] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'keyword' for method parameter type String is not present]
-2022-07-03 15:12:10.924  WARN 7 --- [qtp1138190994-191693] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-07-10 05:47:43.780  WARN 7 --- [qtp1138190994-215713] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-07-10 05:47:45.190  WARN 7 --- [qtp1138190994-125709] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-07-10 05:47:49.064  WARN 7 --- [qtp1138190994-146531] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-07-10 05:47:50.275  WARN 7 --- [qtp1138190994-146531] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
