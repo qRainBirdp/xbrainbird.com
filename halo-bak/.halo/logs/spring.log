@@ -1,6 +1,2 @@
-2022-08-21 02:06:39.193  WARN 7 --- [qtp1138190994-310791] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-08-21 02:06:40.054  WARN 7 --- [qtp1138190994-191693] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-08-21 02:06:41.061  WARN 7 --- [qtp1138190994-323042] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-08-21 05:46:46.664  WARN 7 --- [qtp1138190994-215713] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-08-21 07:37:17.601  WARN 7 --- [qtp1138190994-301541] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'keyword' for method parameter type String is not present]
-2022-08-21 09:48:37.314  WARN 7 --- [qtp1138190994-323042] o.s.w.s.r.ResourceHttpRequestHandler     : Path contains "../" after call to StringUtils#cleanPath: [static../.git/config]
+2022-08-28 10:19:28.313  WARN 7 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.refresh.token.561fcc36ed83495183d2660f10ec9dc2] has been expired
+2022-08-28 11:01:12.083  WARN 7 --- [qtp1138190994-323043] o.s.w.s.r.ResourceHttpRequestHandler     : Path contains "../" after call to StringUtils#cleanPath: [js../.git/config]
